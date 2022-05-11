@@ -8,7 +8,7 @@ os.system("clear")
 main_menu = ["[a] main", "[b] run any script", "[c] realmenu.py", "[d] second page", "[q] quit"]
 second_menu = ["[a] min2sec", "[b] mathfun", "[c]  math", "[q] quit"]
 
-
+#hello
 loop = True
 #loop for selecting items
 while loop:
