@@ -6,7 +6,6 @@ os.system("clear")
 
 # add items to menu
 main_menu = ["[a] main", "[b] run any script", "[c] realmenu.py", "[d] second page", "[q] quit"]
-second_menu = ["[a] min2sec", "[b] mathfun", "[c]  math", "[q] quit"]
 
 #hello
 loop = True
@@ -25,10 +24,10 @@ while loop:
         runpy.run_path("realmenu.py")
 
     elif choice == "[d] second page":
-        choice2 = second_menu[TerminalMenu(second_menu, title="frank's menu").show()]
+        runpy.run_path("second menu.py")
 
-    if choice2 == "[a] min2sec":
-            runpy.run_path("min2sec.py")
-        
+    # IGNORE OLD LOOP
     elif choice == "[q] quit":
         loop = False
+
+        
