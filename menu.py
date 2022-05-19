@@ -6,7 +6,6 @@ from pyclbr import Function
 from consolemenu import *
 from consolemenu.items import *
 
-
 def clear():
     os.system("clear")
 
