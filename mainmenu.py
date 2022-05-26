@@ -5,7 +5,7 @@ os.system("clear")
 
 
 # add items to menu
-main_menu = ["[a] main", "[b] run any script", "[c] realmenu.py", "[d] second page", "[q] quit"]
+main_menu = ["[a] main", "[b] run any script", "[c] realmenu.py", "[d] second page", "[e] password gen", "[q] quit"]
 
 #hello
 loop = True
@@ -25,9 +25,9 @@ while loop:
 
     elif choice == "[d] second page":
         runpy.run_path("second menu.py")
-
+    
+    elif choice == "[e] password gen":
+        runpy.run_path("password gen.py")
     # IGNORE OLD LOOP
     elif choice == "[q] quit":
         loop = False
-
-        
